@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input__wrapper {
+    display: flex;
+    margin: 0 0 20px;
+    position: relative;
+    width: 100%;
+}
+
+.task__input {
+    background-color: #323740;
+    padding: 10px 40px 10px;
+    font-size: 1rem;
+    border: 1px solid #272a2f;
+    width: 100%;
+    outline: none;
+    color: #fff;
+}
+
+.input__wrapper > span {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: 10px;
+    transform: translateX(50%);
+}
+
+.input__wrapper button {
+    font-size: 20px;
+    background-color: #f06291;
+    color: #fff;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+}

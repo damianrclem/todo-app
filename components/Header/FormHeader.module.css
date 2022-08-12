@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #323740;
+}
+
+.navigation > div {
+    padding: 15px 30px;
+    color: #96999c;
+}
+
+.navigation > div.active {
+    border-bottom: 2px solid #f06291;
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.calendar .arrow__left,
+.calendar .arrow__right {
+    padding: 20px 30px;
+    color: #96999c;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.date__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.date__wrapper .day {
+    font-size: 25px;
+}
+
+.date__wrapper .date {
+    padding: 10px 0;
+    color: #96999c;
+}
