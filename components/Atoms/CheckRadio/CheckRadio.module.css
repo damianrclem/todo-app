@@ -1,0 +1,45 @@
+.check,
+.radio {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.check:after,
+.radio:after {
+    content: '\00D7';
+    display: block;
+    background: white;
+    background-image: url('https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-21-32.png');
+    background-position: 0 15px;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    margin-right: 30px;
+    color: transparent;
+    transition: 0.25s all ease-in-out;
+    border-radius: 3px;
+    line-height: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+.radio:after {
+    border-radius: 50%;
+}
+.check:checked:after,
+.radio:checked:after {
+    /* background-color: #f06291; */
+    background-position: 0 0;
+    border-color: #f06291;
+}
+.check:hover:after,
+.radio:hover:after {
+    border-color: #f06291;
+}
