@@ -1,5 +1,3 @@
-import { useState, useContext } from 'react';
-
 import FormHeader from './Header/FormHeader';
 import CalendarScroll from './CalendarScroll/CalendarScroll';
 import TaskInput from './TaskInput/TaskInput';

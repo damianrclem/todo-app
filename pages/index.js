@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-import TodoForm from '../components/TodoForm';
+import TodoForm from '../Components/TodoForm';
 
 export default function Home() {
     return (
