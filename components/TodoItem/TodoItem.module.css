@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.list__item__left {
+    display: flex;
+    align-items: center;
+}
+
+.trash {
+    cursor: pointer;
+}
