@@ -31,7 +31,11 @@ const TaskInput = ({ onChangeHandler }) => {
                     <span>
                         <AiOutlineAlignLeft className={styles.input__icon} />
                     </span>
-                    <input type='text' className={styles.task__input} onChange={onChangeHandler} />
+                    <input
+                        type='text'
+                        className={styles.task__input}
+                        onChange={(e) => setTask(e.target.value)}
+                    />
                     <button>
                         <AiOutlinePlus />
                     </button>
